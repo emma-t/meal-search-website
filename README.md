@@ -1,6 +1,13 @@
-# Vue 3 + Vite
+# Meal Search Application (built with Vue.js)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This repository was created following [YouTube Tutorial](https://youtu.be/cfiN8lCA3RM) and edited by [emma-t](https://github.com/emma-t) to practice Vue.js front-end coding.
+
+## Installation
+
+1. Clone the repository
+1. Run `npm install`
+1. Copy `.env.example` into `.env`
+1. Run `npm run dev` to start the application at http://localhost:3000
 
 ## Recommended IDE Setup
 
