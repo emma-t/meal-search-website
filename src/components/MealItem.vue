@@ -16,6 +16,7 @@
         </p>
         <div class="flex items-center justify-between">
           <YouTubeButton :href="meal.strYoutube" />
+          <SourceButton :href="meal.strSource"/>
         </div>
       </div>
     </div>
@@ -23,6 +24,7 @@
   
   <script setup>
   import YouTubeButton from './YouTubeButton.vue';
+  import SourceButton from './SourceButton.vue';
   
   const { meal } = defineProps({
     meal: {
